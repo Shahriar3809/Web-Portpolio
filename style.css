@@ -1,6 +1,38 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 60px;
 }
 p {
-    color: blue;
+    margin-bottom: 40px;
+}
+
+.orange_color span {
+    color: orangered;
+}
+section {
+    display: flex;
+}
+.top_div {
+    width: 50%;
+    padding: 5%;
+}
+.top_div img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 400px;
+}
+.top_banner {
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
 }
