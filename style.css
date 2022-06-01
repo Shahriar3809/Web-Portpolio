@@ -36,3 +36,31 @@ a {
     background-image: url(Images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+.Middle {
+    width: 50%;
+    padding: 5%;
+}
+.Middle img {
+    width: 100%;
+}
+
+.middle_banner {
+    background: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+.Middle h2 {
+    font-size: 60px;
+}
+.Middle h3 {
+    font-size: 40px;
+    color: tomato;
+}
+.Middle p {
+    margin-bottom: 60px;
+}
+
