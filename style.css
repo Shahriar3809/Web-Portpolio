@@ -13,7 +13,7 @@ p {
 .orange_color span {
     color: orangered;
 }
-section {
+.top_banner, .middle_banner {
     display: flex;
 }
 .top_div {
@@ -64,3 +64,38 @@ a {
     margin-bottom: 60px;
 }
 
+.last_banner {
+    padding-bottom: 40px;
+    background: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.main {
+    display: flex;
+}
+
+.content_last {
+    width: 40%;
+    
+    margin: 0px 30px 20px 60px;
+    padding: 20px;
+    box-shadow: -10px 10px 15px #888888;
+    margin: auto;
+    border-left: 6px solid tomato;
+}
+
+.content_last h1, h2, h3 {
+    margin-left: 10px;
+    
+}
+
+#Web {
+    border-left: 6px solid;
+    border-image: linear-gradient(rgb(7, 22, 233), rgb(22, 239, 247));
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    margin-top: 30px;
+}
